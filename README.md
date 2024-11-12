@@ -18,3 +18,20 @@ HTML/CSS/JavaScript
 
 1.Fetch API: Retrieves quiz questions from the Open Trivia Database API.
 2.Local Storage: Stores and retrieves the highest score across sessions.
+
+
+
+Usage
+1.The quiz application will fetch 5 multiple-choice questions from the Open Trivia Database API.
+2.Answer each question by selecting one of the multiple-choice options.
+3.Timer: A 15-second timer counts down for each question, after which the quiz automatically moves to the next question if time runs out.
+4.Progress: Track your progress with the question indicator at the top.
+5.Feedback: After selecting an answer, immediate feedback will indicate whether your answer is correct or incorrect.
+6.Final Score and High Score: At the end of the quiz, your score is shown along with the highest score, which is saved in local storage.
+7.Restart: Use the "Restart Quiz" button to attempt the quiz again.
+
+
+Code Structure
+1.index.html: HTML structure of the application.
+2.style.css: Styles for layout, colors, and responsive design.
+3.script.js: JavaScript functionality for fetching data, handling user interactions, and storing high scores.
